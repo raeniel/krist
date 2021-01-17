@@ -1,0 +1,353 @@
+#text{
+    color:black;
+}
+
+.header a{
+    color:white;
+    padding: 0 25px;
+}
+
+#subTabJumbo{
+    margin-top: 4.8%;
+    height: 60px;
+    background-color: white;
+}
+
+#subTabJumbo a{
+    color: black;
+}
+
+
+p{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 19px;
+}
+
+
+    
+.header img{
+    height:50px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: pink;
+}
+
+#btnHide{
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+
+
+
+a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Be Vietnam', sans-serif;
+}
+.dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity:0;
+    transform: translateY(-10px);
+    transition:.3s all;}
+
+
+.dropdown-menu.show{
+    display: block;
+    visibility: visible;
+    opacity:1;
+    transform: translateY(0px);
+    transition:.3s all;
+}
+
+
+.drop1{
+    transform: translate3d(50px,-10px,0) !important;
+}
+
+#head.scrolled {
+    background-color: white !important;
+    transition: background-color 300ms linear;
+}
+
+.header a.scrolled{
+    color:black !important;
+    transition: color 300ms linear;
+}
+
+#dropdownItems a{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
+.header{
+    background-color: rgb(0,0,0);
+}
+
+
+#rowFoot{
+    margin-left: 0px !important;
+}
+
+#footer1{
+    background-color: #dba093;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+
+#footer2{
+    background-color: #343a40;
+    color: #686868;
+    padding:20px 0;
+    height: 100%;
+}
+
+#line{
+    line-height: 35px;
+}
+
+.footer{
+    align-items: center;
+}
+
+
+
+
+#backgroundContainer{
+    padding: 0;
+    max-height: 50%;
+}
+
+
+
+#firstCon{
+    margin-top: 15%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#secondCon{
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+#dropdownSub a{
+    color:black;
+}
+
+#dropdownSub {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+#text{
+    text-align: center;
+    margin-top: 230px;
+    font-family: 'Be Vietnam', sans-serif;
+
+}
+
+
+div #image{
+    height: 100%;
+    width: 100%;
+}
+
+#btnSub{
+    display:none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+    #footerMid {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 1648px) {
+    #subTabJumbo {
+        margin-top: 93px;
+    }
+}
+
+@media only screen and (max-width: 1272px) {
+    #subTabJumbo {
+        margin-top: 130px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    #ourLoc {
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1306px){
+    #rightNav{
+    display:none;
+}
+}
+
+
+
+@media screen and (max-width:1306px){
+    #leftNav{
+    display:none;
+}
+}
+
+
+@media screen and (min-width: 1307px) and (max-width: 1920px) {
+    #btnHide{ display: none; 
+} 
+}
+    
+    
+
+
+
+@media only screen and (max-width: 1024px) {
+    .page-header {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .centered {
+        display: none !important;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    #logo{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #featured{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #form1{
+        margin-top: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .navbar{
+        max-height: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #text{
+        margin-top: 130px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .footer img{
+        padding:0 0;
+    }
+}
+
+@media screen and (max-width: 1306px){
+    #btnSub{
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 1306px){
+    #dropdownSub{
+        width:80vw;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    #firstCon{
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (max-width: 575px){
+    #firstCon{
+        margin-top: 80px;
+    }
+}
+
+
+@media (min-width: 576px){
+    .jumbotron{
+        padding: 0 0 !important;
+    }
+}
+
+@media (max-width: 499px){
+    #sub:first-of-type{
+        padding-left: 260px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 499px){
+    #jumbo{
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 499px){
+    #jumbo a{
+        padding: 0 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 1305px){
+    #subTabJumbo{
+        margin-top: 130px;
+    }
+}
+    

@@ -1,0 +1,322 @@
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+hr{
+    position: relative; 
+    top: 20px; 
+    border: none; 
+    height: 1px; 
+    background:#3471a3; 
+    margin-bottom: 50px; 
+}
+
+#cancel{
+    margin-top: 20px;
+}
+p{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 19px;
+}
+
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+h1{
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+#term{
+    text-align: center;
+}
+
+#terms{
+    margin-top: 7%;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+#terms1{
+    margin-top: 3%;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+#services{
+    margin-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+body li{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 19px;
+}
+
+#contact{
+    text-align: center;
+}
+#time{
+    text-align: center;
+}
+
+.picture{
+    width: 100%;
+}
+
+a{
+    color: white;
+}
+
+
+#form1{
+    margin-top: 50px;
+}
+#dropdownItems a{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.centered{
+    font-size: 50px;
+    font-family: 'Lacquer' ;
+    position: absolute;
+    top:8em;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+#background{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#lblOne{
+    font-family: 'Indie Flower';
+    font-size: 30px; 
+    margin-bottom:0;
+}
+
+
+#navContainer{
+    padding: 0;
+}
+
+#backgroundContainer{
+    padding: 0;
+    max-height: 50%;
+}
+
+
+
+
+
+
+.header img{
+    height:50px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: pink;
+}
+
+#btnHide{
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+
+
+a{
+    padding: 0 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Be Vietnam', sans-serif;
+}
+.dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity:0;
+    transform: translateY(-10px);
+    transition:.3s all;}
+
+.dropdown-menu.show{
+    display: block;
+    visibility: visible;
+    opacity:1;
+    transform: translateY(0px);
+    transition:.3s all;
+}
+
+#head.scrolled {
+    background-color: white !important;
+    transition: background-color 300ms linear;
+}
+
+.header a.scrolled{
+    color:black !important;
+    transition: color 300ms linear;
+}
+
+.header{
+    background-color: rgb(0,0,0);
+}
+
+
+#rowFoot{
+    margin-left: 0px !important;
+}
+
+#footer1{
+    background-color: #dba093;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+
+#footer2{
+    background-color: #343a40;
+    color: #686868;
+    padding:20px 0;
+    height: 100%;
+}
+
+#line{
+    line-height: 35px;
+}
+
+.footer{
+    align-items: center;
+}
+
+#terms11{
+    margin-top: 150px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #footerMid {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #ourLoc {
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1306px){
+    #rightNav{
+    display:none;
+}
+}
+
+
+
+@media screen and (max-width:1306px){
+    #leftNav{
+    display:none;
+}
+}
+
+
+@media screen and (min-width: 1306px) and (max-width: 1920px) {
+    #btnHide{ display: none; 
+} 
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .page-header {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .centered {
+        display: none !important;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    #logo{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #featured{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #terms li,#terms1 li,h2,h1{
+        font-size: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    #terms11{
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    #form1{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .footer{
+        height: 40em;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navbar{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #terms1, #terms{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+
+

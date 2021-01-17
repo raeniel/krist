@@ -1,0 +1,44 @@
+#rowFoot{
+    margin-left: 0px !important;
+}
+
+#footer1{
+    background-color: #dba093;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+
+#footer2{
+    background-color: #343a40;
+    color: #686868;
+    padding:20px 0;
+    height: 100%;
+}
+
+#line{
+    line-height: 35px;
+}
+
+.footer{
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    #footerMid {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #ourLoc {
+        padding-top: 50px;
+    }
+}
+
+
+

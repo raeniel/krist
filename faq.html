@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="cs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="header fixed-top" style="top: 0px; padding: 20px 20px; border-bottom: 2px solid black;" id="head">
+        <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-5 d-flex align-items-center">
+                <a id="leftNav" href="https://neighborless-accord.000webhostapp.com/toursTab.php" style="padding-right: 80px;">Tours</a>
+                <a id="leftNav" href="https://neighborless-accord.000webhostapp.com/booknow.php">Book Now</a>
+            </div>
+            <div class="col-md-2 col-sm-12 d-flex align-items-center justify-content-center">
+                <a href="https://neighborless-accord.000webhostapp.com/travel.html">
+                    <img src="whitetry.png" alt="" id="changeLogo">
+                </a>
+            </div>
+            <div class="col-md-5 d-flex align-items-center justify-content-end">
+                <a id="rightNav" href="https://neighborless-accord.000webhostapp.com/terms.php">Terms and Condition</a>
+                <a id="rightNav" href="https://neighborless-accord.000webhostapp.com/faq.html">FAQ</a>
+                <a id="rightNav" href="https://neighborless-accord.000webhostapp.com/contactus.php">Contact Us</a>
+            </div>
+            <div class="dropdown">
+                <button id="btnHide" type="button" data-toggle="dropdown"><img src="burgerblack.png" alt="" style="width:15px; height: 12px;"></button>
+                  <ul class="dropdown-menu" id="dropdownItems">
+                    <li><a style="color:black" href="https://neighborless-accord.000webhostapp.com/toursTab.php">Tours</a></li>
+                    <li><a style="color:black" href="https://neighborless-accord.000webhostapp.com/booknow.php">Book Now</a></li>
+                    <li><a style="color:black" href="https://neighborless-accord.000webhostapp.com/terms.php">Terms and Condition</a></li>
+                    <li><a style="color:black" href="https://neighborless-accord.000webhostapp.com/faq.html">FAQ</a></li>
+                    <li><a style="color:black" href="https://neighborless-accord.000webhostapp.com/contactus.php">Contact Us</a></li>
+                  </ul>
+                  </div>
+        
+        </div>
+        </div>
+        </div>
+    
+
+
+<div class="container" id="switch">
+        <div class="row">
+            <div class="col-md-6 active" id="visaSwitch" onclick="return false;"> 
+            <a href=""><p>Visa Requirements</p></a>
+            </div>
+
+            <div class="col-md-6" id="faqSwitch" onclick="return false;">
+            <a href=""><p>FAQs</p></a>
+            </div>
+        </div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" style="width: 100%;" id="mainContainer">
+    <div class="row"> 
+        <div class="col-md-2 flex-column visa" style="width: 100%;" id="columnLeft">
+            <a href="" onclick="return false;" id="1" name="Japan">Japan</a>
+            <a href="" onclick="return false;" id="2" name="Korea">Korea</a>
+            <a href="" onclick="return false;" id="3" name="China">China</a>
+        </div>
+        <div class="col-md-2 flex-column faq" style="width: 100%;" id="columnHide">
+            <a href="" onclick="return false;" name="una">Payment</a>
+            <a href="" onclick="return false;" name="pangalawa">Booking</a>
+            <a href="" onclick="return false;" name="pangatlo">Baggage</a>
+            <a href="" onclick="return false;" name="">Ticket</a>
+            <a href="" onclick="return false;" name="">Insurance</a>
+        </div>
+        <div class="col-md-10 display" style="width: 100%;" id="Japan" name="visaRequired">
+            <p>Japan</p>
+            <p id="japan">
+                    <p>REQUIREMENTS</p><br>
+                    <p>All documents must be original unless otherwise stated</p>
+                    <ol type="1"><li>Philippine Passport</li>
+                    <ul><li>Broken passport is not accepted. Passports must be signed and must have at least two (2)
+                        blank visa pages.</li>
+                    </ul>
+                    <li>Visa Application Form</li>
+                    <ul><li>Available at the Embassy website, at the entrance of the Embassy or at any of the accredited
+                        travel agencies.</li>
+                    <li>Application form should be filled out all items correctly, If item is not applicable, please fill in
+                        [N/A]. Embassy may not accept application with blank item, no signature or no date in the form;
+                        may deny the application that is filled out incorrectly or wrong information.</li>
+                    </ul>
+                    <li>Photo</li>
+                    <ul><li>Specs: 4.5cm x 4.5cm, with white background.</li>
+                    <li>Photo must be taken within 6 months.</li>
+                    <li>Please write applicant’s name and birthdate on back side of the photo.</li>
+                    <li>Photo must be pasted on the application form.</li>
+                    </ul>
+                    <li>Birth Certificate</li>
+                    <ul><li>IT must be issued within one year from PSA Main Office/Serbilis Outlet Center (Nationwide).</li>
+                    <li>If the birth certificate from Philippine Statistics Office (PSA) is unreadable, or has incomplete
+                        information, please submit the birth certificate issued by PSA together with a birth certificate issued
+                        by the Local Civil Registrar.</li>
+                    <li>If the birth certificate is “late registration”, please submit in addition, a baptismal certificate
+                        and school record (Form 137) from high school or elementary and School Yearbook (if possible).</li>
+                    <li>If there is no record in PSA, please submit a “Certificate of Non-Record” from PSA together
+                        with a birth certificate from the Local Civil Registrar.</li>
+                    </ul>
+                    <li>Marriage Certificate (if the applicant is married)</li>
+                    <ul><li>IT must be issued within one year from PSA Main Office/Serbilis Outlet Center (Nationwide).
+                    </li>
+                    <li>In case there is no record in PSA, please submit a “Certificate of Non-Record” from PSA
+                        together with the Marriage Certificate from the Local Civil Registrar.</li>
+                    </ul>
+                    <li>Daily Schedule in Japan (TAIZAI YOTEIHYO)</li><br>
+                    <p>[If applicant will shoulder part or all of his/her travel expenses]</p>
+                    <li>Bank Certificate</li>
+                    <ul><li>Validity of Bank Certificate is three (3) month from the date of issue</li>
+                    </ul>
+                    <li>Applicant’s Income Tax Return (Form 2316) clear Photocopy (latest)</li><br>
+                    <p>[If Guarantor who lives in the Philippines will shoulder part or all of the applicant’s travel
+                        expenses]
+                    </p>
+                    <li>Guarantee Letter</li>
+                    <li> Proof of relationship between applicant and guarantor (e.g. Birth Certificates etc.)</li>
+                    <li>Bank Certificate (original) and Income Tax Return (ITR Form 2316) (clear Photocopy) of
+                        Guarantor</li><br>
+
+                    <p>[If Applicant is not Philippines nationality]</p>
+                    <li>Foreign residents with long-term or permanent status in the Philippines applying for a visa
+                        must submit, in addition to the above requirements (except birth and marriage certificates), a copy
+                        of their Alien Certificate of Registration (ACR) issued by the Philippine government</li>
+                    <ul><li>Visa application of foreigners who are on short-term (temporary) visa in the Philippines
+                        cannot be accepted. Please apply at the Japanese Embassy /Consulate General with jurisdiction
+                        over the area in which the applicant resides or over the country of which the applicant’s
+                        passport was issued.
+                        </li>
+                    </ul><br>
+
+                    <p>[NOTICE]</p>
+                    <ul><li>Size of document for application should be A4 size only. If document is other size, please
+                        submit copy that is already adjusted in A4 size from its original and without staples or pasting
+                        pages.</li>
+                    <li>Applicants are exempted from submitting (4) and (5) Indicated above if they can submit
+                        old/valid passports with used Japan visa.</li>
+                    <li>It is applicant’s responsibility to ensure that he/she meet the requirements for the grant of
+                        a visa. Submission of any supporting documents not listed above is encouraged (e.g. applicant’s
+                        economic or social ties with the Philippines, urgent reasons for visit: medical certificate, wedding
+                        invitation).</li>
+                    </ul>
+                    </ol>
+            </ol>
+            <p><a href="" style="color:black;"><svg width="1em" viewBox="0 0 16 16" class="bi bi-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 0 1 .5.5V12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8.5a.5.5 0 0 1 1 0V12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8.5A.5.5 0 0 1 .5 8z"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 0 1 .707 0L8 9.793 10.293 7.5a.5.5 0 1 1 .707.707l-2.646 2.647a.5.5 0 0 1-.708 0L5 8.207A.5.5 0 0 1 5 7.5z"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0v-8A.5.5 0 0 1 8 1z"/>
+              </svg> Click to Download Visa Application Form</a></p>
+        </p>
+        </div>
+        <div class="col-md-10 display" style="width: 100%; display:none" id="Korea" name="visaRequired">
+            <p>Korea</p>
+            <p id="korea"><p>Visa Requirements for Students</p>
+            <ol type="1">
+                <li>Application Form</li>
+                <li>1 piece of Passport size colored picture</li>
+                <li>Original Passport (should be valid for more than 6months)</li>
+                <li>Photocopy of Passport Bio-page (page 2)</li>
+                <li>Original & Photocopy of valid visa/s and arrival stamps to OECD member countries for the past 5 years
+                (If applicable only)</li>
+                <li>School Certificate (Original)</li>
+                <li>Copy of School ID </li>
+                <li>Copy of Birth Certificate</li>
+                <li>Parents' Documents</li>
+                <ul type="square">
+                    <li>If employed: Employment Certificate Original [must include position, date hired, compensation, office
+                        address, HR landline number(cell-phone number is not allowed), HR e-mail address], Photocopy of
+                        ITR(Income Tax Return) or Form 2316 Copy</li>
+                    <li>If Self-employed: Business Registration from SEC or DTI (Copy), Business Permit or Mayor's
+                        Permit(Copy), Photocopy of ITR (Income Tax Return) or Form 2316</li>
+                    <li> Original Bank Certificate [must include account type, current balance, account opening date, 6 months average balance (ADB)]
+                        </li>
+                    <li>Bank Statement (original or certified true copy of bank statements/passbook for the last 3 months)
+                    </li>
+                    <li>Copy of Nso Marriage Certificate</li>
+                    <ul type="square"><li>If personally invited by Korean</li></ul>
+                </ul>
+            </ol>
+            <p>Visa Requirements for Businessman</p>
+            <ol>
+                <li>Application Form</li>
+                <li>1 piece of Passport size colored picture</li>
+                <li>Original Passport (should be valid for more than 6months)</li>
+                <li>Photocopy of Passport Bio-page (page 2)</li>
+                <li> Original & Photocopy of valid visa/s and arrival stamps to OECD member countries for the past 5 years
+                (If applicable only)</li>
+                <li>Photocopy of Business Registration from SEC or DTI</li>
+                <li>Photocopy of Business Permit or Mayor's Permit</li>
+                <li>Original Personal Bank Certificate (must include account type, current balance, account opening date, ADB)</li>
+                <li>Bank Statement (original or certified true copy of bank statements/passbook for the last 3 months)</li>
+                <li>Photocopy of ITR (Income Tax Return) or Form 2316</li>
+                <li>Copy of PRC Card or IBP Card (If applicable only</li>
+            </ol>
+            <p>Visa Requirements for Employees</p>
+            <ol>
+                <li>Application Form</li>
+                <li>1 piece of Passport size colored picture</li>
+                <li>Original Passport (should be valid for more than 6months)</li>
+                <li>Photocopy of Passport Bio-page (page 2)</li>
+                <li>Original & Photocopy of valid visa/s and arrival stamps to OECD member countries for the past 5 years
+                (If applicable only)
+                </li>
+                <li>Original Certificate of Employment (must include applicant's position, date hired, compensation, office address, HR landline number(cellphone number is not allowed), HR e-mail address)
+                </li>
+                <li>Original Personal Bank Certificate (must include account type, current balance, account opening date, ADB)</li>
+                <li>Bank Statement (original or certified true copy of bank statements/passbook for the last 3 months)</li>
+                <li>Photocopy of ITR (Income Tax Return) or Form 2316</li>
+                <li>Copy of PRC Card or IBP Card (If applicable only)</li>
+            </ol>
+            <p>Visa Requirements for Housewives</p>
+            <ol>
+                <li>Application Form</li>
+                <li>1 piece of Passport size colored picture</li>
+                <li>Original Passport (should be valid for more than 6months)</li>
+                <li>Photocopy of Passport Bio-page (page 2)</li>
+                <li>Original & Photocopy of valid visa/s and arrival stamps to OECD member countries for the past 5 years
+                (If applicable only)</li>
+                <li>Additional documents </li>
+                <ul type="square"><li>If husband is employed : Husband's Employment Certificate Original [must include position, date
+                    hired, compensation, office address, HR landline number(cell-phone number is not allowed), HR e-mail
+                    address], Photocopy of ITR(Income Tax Return) or Form 2316 Copy</li>
+                <li> If husband is self-employed : Business Registration from SEC or DTI (Copy), Business Permit or
+                    Mayor's Permit(Copy), Photocopy of ITR (Income Tax Return) or Form 2316</li>
+                <li>Original Personal or Husband's Bank Certificate [must include account type, current balance, account
+                    opening date, 6 months average balance (ADB)]</li>
+                <li>Personal or Husband's Bank Statement (original or certified true copy of bank statements/passbook
+                    for the last 3 months)</li>
+                <li>Copy of PSA Marriage Certificate</li>
+                </ul>
+            </ol>
+            <p>Visa Requirements for Religious Workers</p>
+            <ol>
+                <li>Application Form</li>
+                <li>1 piece of Passport size colored picture</li>
+                <li>Original Passport (should be valid for more than 6months)</li>
+                <li>Photocopy of Passport Bio-page (page 2)</li>
+                <li>Original & Photocopy of valid visa/s and arrival stamps to OECD member countries for the past 5 years
+                (If applicable only)</li>
+                <li>Copy of Church SEC in the Philippines</li>
+                <li>Certification from Church Original</li>
+                <ul type="square">
+                <li>If Employed: Employment Certificate Original [must include applicant's position, date hired,
+                    compensation, office address, HR landline number(cell-phone number is not allowed), HR e-mail
+                    address], Photocopy of ITR(Income Tax Return) or Form 2316 Copy</li>
+                <li>If Businessmen: Business Registration from SEC or DTI (Copy), Business Permit or Mayor's
+                    Permit(Copy), Photocopy of ITR (Income Tax Return) or Form 2316</li>
+                </ul>
+                <li>Personal Bank Certificate Original [must include account type, current balance, account opening date,
+                    6 months average balance (ADB)]</li>
+                <li>Personal Bank Statement (original or certified true copy of bank statements/passbook for the last 3
+                    months)</li>
+                <li>Invitation from Korea</li>
+                <ul type="square">
+                <li>Copy of business permit of Korean church </li>
+                <li>Invitation Letter</li>
+                <li>Copy of inviter's ID</li>
+                </ul>
+            </ol>
+            <p><a href="" style="color:black;"><svg width="1em" viewBox="0 0 16 16" class="bi bi-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 0 1 .5.5V12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8.5a.5.5 0 0 1 1 0V12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8.5A.5.5 0 0 1 .5 8z"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 0 1 .707 0L8 9.793 10.293 7.5a.5.5 0 1 1 .707.707l-2.646 2.647a.5.5 0 0 1-.708 0L5 8.207A.5.5 0 0 1 5 7.5z"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0v-8A.5.5 0 0 1 8 1z"/>
+              </svg> Click to Download Visa Application Form</a></p>
+        </p>
+    </div>
+    <div class="col-md-10 display" style="width: 100%; display:none" id="China" name="visaRequired">
+        <p>China</p>
+        <p id="china"><p>Basic Requirements</p>
+        <p>First Time Applicant</p>
+            <ol>
+                <li>Passport – Original passport that is valid for at least another 6 months with at least one blank visa
+                    page, a photocopy of the passport's information/photo page and emergency contact page. The
+                    previous old passport, if available, is required to be submitted; if the old passport is lost, or the applicant
+                    never holds a passport before, please make a clear statement in the item 3.7 of the Visa Application
+                    Form.</li>
+                <li>Visa Application Form – Please submit truthfully completed and signed Visa Application Form of
+                    the People's Republic of China. Please type the answer in capital English letters in the space provided.
+                    Do not leave any field blank. Type N/A if the item does not apply. Application form of minors must be
+                    signed by their parents or legal guardians.</li>
+                <li>Photo – Please provide 2 color photos and affix one of the photos on the Application Form. The
+                    photo should be recent(within 6 months), front view, white background, in 48mm x 33mm size without
+                    head covering. Stapled/taped/clipped/detached photos will not be accepted.</li>
+            </ol>
+            <p>Additional Requirements</p>
+            <ol>
+                <li>Bank Certificate of Deposit Balance(including the past 6 months bank statement) and the receipt
+                    for payment of this certificate.</li>
+                <li>BIR-stamped Income Tax Return Form.</li>
+                <li>Certificate of Employment(detailing the salary and the length of employment)</li>
+                <li>Business Registration Certificate(if you are the owner)</li>
+                <li>Professional ID/Student ID (if applicable)</li>
+                <li>Other relevant documents proving the applicant's economic condition/ employment/study, or
+                    supporting the applicant's travel to China, or explaining the travel purpose (if applicable)</li>
+                <li>School ID (photocopy), School Certificate, Original NSO Birth Certificate, Original Marriage
+                    Contract of parents</li>
+            </ol>
+            <p>Previous Chinese Visa – If you had obtained a Chinese visa before, you should submit a photocopy
+                of the visa, and if the visa is on your old passport, you should also submit the old passport.</p>
+            <p><a href="" style="color:black;"><svg width="1em" viewBox="0 0 16 16" class="bi bi-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 0 1 .5.5V12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8.5a.5.5 0 0 1 1 0V12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8.5A.5.5 0 0 1 .5 8z"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 0 1 .707 0L8 9.793 10.293 7.5a.5.5 0 1 1 .707.707l-2.646 2.647a.5.5 0 0 1-.708 0L5 8.207A.5.5 0 0 1 5 7.5z"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0v-8A.5.5 0 0 1 8 1z"/>
+              </svg> Click to Download Visa Application Form</a></p>
+    </p>
+</div>
+        <div class="col-md-10 display" style="display: none;"id="una" name="faq1">
+            <p>Bank Deposit</p>
+            <div class="spanDis">
+                <div class="nav-icon1 float-right">
+                    <span></span>
+                    <span></span>
+                </div>  
+                <p class="dis">Deposits for down payment and full payment are accepted through the following banks below and when the payment is received, you will receive a notification email that you're payment is confirmed</p>
+            </div>
+                <p>Online Transfer</p>
+            <div class="spanDis">
+                <div class="nav-icon1 float-right">
+                    <span></span>
+                    <span></span>
+                </div>  
+                <p class="dis">Deposits for down payment and full payment are accepted through the following banks below and when the paymen</p>
+            </div>
+
+                <p>Credit Card/Debit Card</p>
+            <div class="spanDis">
+                <div class="nav-icon1 float-right">
+                    <span></span>
+                    <span></span>
+                </div>  
+                <p class="dis">Deposits for down payment and full payment are accepted through the following banks below and when the paymen</p>
+            </div>
+
+        </div>  
+</div>  
+</div>
+
+
+
+<div class="footer" id="footer1">
+    <div class="container" id="footCon">
+    <div class="row d-flex align-items-center" style="width: 100%;" id="rowFoot">
+        <div class="col-md-4 d-flex  justify-content-around">
+            <img src="Logo (Home).png" alt="" style="width:100%;">
+        </div>
+        <div class="col-md-4 d-flex align-items-center justify-content-center" style="width: 100%;" id="footerMid">
+            <p id="line">CONTACT US<br>
+            <i class="fa fa-phone" aria-hidden="true"></i> 09060086026<br>
+            <i class="fa fa-envelope" aria-hidden="true"></i> kristdestinationtnt@gmail.com
+        </div>
+        <div class="col-md-4 d-flex justify-content-center" id="ourLoc" style="width: 100%;">
+            <p id="line">Our Location<br>
+            <i class="fa fa-globe" aria-hidden="true"></i> Palo-Alto, Calamba City Laguna<br>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="footer d-flex justify-content-center align-items-center" id="footer2" style=" width: 100%;">
+    <p style="margin: 0 0;">© Powered by CPTech</p>
+</div>
+
+
+<script>
+$(".spanDis").click(function(){
+    $(this).find('.dis').toggleClass("appear");
+});
+</script>
+
+<script>
+$(document).ready(function(){
+$('.nav-icon1').click(function(){
+$(this).toggleClass('open');
+});
+});
+</script>           
+            
+
+
+<script>
+$(function () {
+$(document).scroll(function () {
+var $nav = $("#head");
+$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+});
+});
+</script>
+            
+<script>
+$(function () {
+$(document).scroll(function () {
+var $color = $(".header a");
+$color.toggleClass('scrolled', $(this).scrollTop() > $color.height());
+});
+});
+
+</script>
+            
+<script>
+$(window).scroll(function () {
+if ($(document).scrollTop() > 0) {
+$("#changeLogo").attr("src", "logotry.png");
+}
+if ($(document).scrollTop() == 0) {
+$("#changeLogo").attr("src", "whitetry.png");
+}
+}); 
+</script>
+
+<script>
+$(document).ready(function(){
+$(this).scrollTop(0);
+});
+</script>
+
+
+<script>
+$("#columnLeft a").click(function() { 
+var divs = (this.name);                        
+$("div[name*='visaRequired']").each(function(){
+    if(this.id !== divs){
+    $(this).hide();
+    }
+    else{
+    $(this).show();
+    $('#korea').css('opacity', 0);
+    $('#japan').css('opacity', 0);
+    $('#china').css('opacity', 0);
+    }
+});                
+});            
+</script>
+
+<script>
+$("#columnHide a").click(function(){
+var faq = (this.name);
+$("div[name*='faq1']").each(function(){
+    if(this.id !== faq){
+        $(this).hide();
+    }
+    else{
+    $(this).show();
+    }
+});
+});
+</script>
+
+
+<script>
+$("#faqSwitch").click(function(){
+    $("#columnLeft").css("display", "none");
+    $("#columnHide").css("display", "block");
+    $("#Japan").css("display","none");
+    $("#Korea").css("display","none");
+    $("#China").css("display","none");
+    $("#una").css("display", "block");
+});
+</script>
+
+<script>
+$("#visaSwitch").click(function(){
+    $("#columnLeft").css("display", "block");
+    $("#columnHide").css("display", "none");
+    $("#Japan").css("display","block");
+    $("#una").css("display", "none");
+    $("#pangalawa").css("display", "none");
+    $("#pangatlo").css("display", "none");
+});
+</script>
+
+<script>
+$( document ).ready(function(){
+$(function(){
+$('#faqSwitch').click(function(){
+$(this).addClass('clicked'); 
+$("#visaSwitch").removeClass('clicked');
+$("#visaSwitch").removeClass('active');
+}); 
+
+
+$('#visaSwitch').click(function(){
+$(this).addClass('clicked'); 
+$("#faqSwitch").removeClass('clicked');
+
+}); 
+});
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#3").click(function(){
+    if ($('#china').css('opacity') == 0) $('#china').css('opacity', 1);
+    else{$('#china').css('opacity', 1);}
+    });
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+        $("#2").click(function(){
+        if ($('#korea').css('opacity') == 0) $('#korea').css('opacity', 1);
+        else{$('#korea').css('opacity', 1);}
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $("#1").click(function(){
+        if ($('#japan').css('opacity') == 0) $('#japan').css('opacity', 1);
+        else{$('#japan').css('opacity', 1);}
+        });
+    });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>            
+</body>
+</html>
