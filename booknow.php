@@ -82,7 +82,7 @@ include_once 'connect.php';
                       </div>
                       <div class="col-md-3">
                   <label for="">Number of Pax</label>
-                  <input type="number" class="form-control" name="pax" id="pax" onclick="getValue()" min="0">
+                  <input type="number" class="form-control" name="pax" id="pax" onclick="getValue()" min="0" onchange="getInputValue()">
                   </div>
                 </div>
               <br>
@@ -90,7 +90,7 @@ include_once 'connect.php';
               <div class="form-row">
                 <div class="col-md-9">
                 <label for="">Tour Selection*</label><br>
-              <select name="tourselection" id="tourSelect" class="form-control" required>
+              <select name="tourselection" id="tourSelect" class="form-control" onchange="getCountryValueRaeniel()" required>
                     <option value="">Select Tour</option>
               </select>
                       </div>
@@ -110,8 +110,6 @@ include_once 'connect.php';
             </form>
 
           </div>
-
-          
 
       </div>
       </div>
@@ -217,7 +215,20 @@ $(window).scroll(function () {
 }); 
 </script>
 
+<script>
+  function getInputValue(){
+    var $inputVal = document.getElementById("pax").value;
+    console.log($inputVal);
+  }
+</script>
 
+<script>
+  function getCountryValueRaeniel(){
+    var $tourS = document.getElementById("tourSelect").value;
+    var hehe = "<?php echo getV($mysqli) ?>"
+    console.log(hehe);
+  }
+</script>
 
 </body>
 </html>
